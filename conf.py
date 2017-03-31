@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# sos documentation build configuration file, created by
-# sphinx-quickstart on Fri Mar 31 13:05:42 2017.
+# documentation pour SOS documentation build configuration file, created by
+# sphinx-quickstart on Fri Mar 31 13:10:05 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -46,7 +46,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'sos'
+project = 'documentation pour SOS'
 copyright = '2017, Olivier LEMAIRE'
 author = 'Olivier LEMAIRE'
 
@@ -69,7 +69,7 @@ language = 'fr'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -100,7 +100,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sosdoc'
+htmlhelp_basename = 'documentationpourSOSdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -127,7 +127,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sos.tex', 'sos Documentation',
+    (master_doc, 'documentationpourSOS.tex', 'documentation pour SOS Documentation',
      'Olivier LEMAIRE', 'manual'),
 ]
 
@@ -137,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sos', 'sos Documentation',
+    (master_doc, 'documentationpoursos', 'documentation pour SOS Documentation',
      [author], 1)
 ]
 
@@ -148,8 +148,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'sos', 'sos Documentation',
-     author, 'sos', 'One line description of project.',
+    (master_doc, 'documentationpourSOS', 'documentation pour SOS Documentation',
+     author, 'documentationpourSOS', 'One line description of project.',
      'Miscellaneous'),
 ]
 
